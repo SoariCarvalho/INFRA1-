@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(74, 87, 80);
+}
+
+.cabeçalho-principal {
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+   
+}
+
+.cabeçalho-principal h1 {
+    color: #f10c0c;
+    font-weight: bold;
+    
+}
+     
+
+.cabeçalho-principal ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    width: 100%;
+    height: 2rem;
+}
+
+.cabeçalho-principal ul a {
+    font-size: 20px;  
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+.texto{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-style: italic;
+}
+
+.conteudo-principal {
+    margin: 20px 200px;
+       
+}
+
+.conteudo-principal .conteudo-sessao {
+    padding: 20px;
+}
+
+.conteudo-sessao .sessao-titulo {
+    color: #f0f8ff;
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold
+}
+
+
+.conteudo-sessao .itens {
+    color: #f0f8ff;
+    font-size: 30px;
+    text-align: center
+    padding-botton: 8px
+}
+
+
+
+.conteudo-sessao .midia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 42px;
+
+}
+
+
+.midia-filme {
+    width: 240px;
+    background-color: #000000;
+    border-radius: 12px;
+   
+
+}
+
+.midia-filme img {
+    width: 100%;
+    height: 332px;
+    object-fit: cover;
+}
+
+
+.midia-filme h1 {
+    color: #f0ffff;
+    margin: 12px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* Banner */
+
+section.banner {
+    background: url(./banner2-pinoquio-pessoas.jpg);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+    
+}
+
+section.banner h1 {
+    font-size: 55px;
+    padding-bottom: 30px
+}
+
+section.banner p {
+    font-size: 16px;
+    padding-bottom: 50px
+}
+
+section.banner a {
+    text-decoration: none;
+    color:#000000;
+    background-color: #fff;
+    padding: 18px 40px;
+    border-radius: 16px;
+}
+
+section.banner a:hover {
+    background-color: rgba(255,255,255,0.5);
+    
+} 
+
+footer {
+    background-color: #000000;
+    color: #f0f8ff;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* Breakpoint */
+
+@media(max-width: 768px) {
+    body {
+        background-color: white
+    }
+    
+    .cabeçalho-principal {
+        flex-direction: column;
+    }
+
+    .cabeçalho-principal ul {
+        flex-wrap: wrap;
+
+ 
+
+    
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
